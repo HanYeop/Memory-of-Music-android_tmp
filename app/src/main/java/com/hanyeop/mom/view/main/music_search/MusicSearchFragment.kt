@@ -1,12 +1,11 @@
 package com.hanyeop.mom.view.main.music_search
 
-import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import com.hanyeop.mom.R
+import com.hanyeop.mom.base.BaseFragment
+import com.hanyeop.mom.databinding.FragmentMusicSearchBinding
 
-class MusicSearchFragment : Fragment() {
+class MusicSearchFragment : BaseFragment<FragmentMusicSearchBinding>(R.layout.fragment_music_search) {
+    override fun init() {
 
+    }
 }

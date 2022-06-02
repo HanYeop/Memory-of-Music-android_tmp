@@ -1,12 +1,11 @@
 package com.hanyeop.mom.view.main.music_list
 
-import android.os.Bundle
-import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import com.hanyeop.mom.R
+import com.hanyeop.mom.base.BaseFragment
+import com.hanyeop.mom.databinding.FragmentMusicListBinding
 
-class MusicListFragment : Fragment() {
+class MusicListFragment : BaseFragment<FragmentMusicListBinding>(R.layout.fragment_music_list) {
+    override fun init() {
 
+    }
 }
