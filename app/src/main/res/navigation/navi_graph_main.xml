@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi_graph_main"
+    app:startDestination="@id/musicListFragment">
+
+    <keep_state_fragment
+        android:id="@+id/musicListFragment"
+        android:name="com.hanyeop.mom.view.main.music_list.MusicListFragment"
+        android:label="MusicListFragment"
+        tools:layout="@layout/fragment_music_list"/>
+    <keep_state_fragment
+        android:id="@+id/albumListFragment"
+        android:name="com.hanyeop.mom.view.main.album_list.AlbumListFragment"
+        android:label="AlbumListFragment"
+        tools:layout="@layout/fragment_album_list"/>
+    <keep_state_fragment
+        android:id="@+id/settingFragment"
+        android:name="com.hanyeop.mom.view.main.setting.SettingFragment"
+        android:label="SettingFragment"
+        tools:layout="@layout/fragment_setting"/>
+</navigation>

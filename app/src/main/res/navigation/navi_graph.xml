@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.hanyeop.mom.view.main.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_musicSearchFragment"
+            app:destination="@id/musicSearchFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/musicSearchFragment"
+            app:popUpToInclusive="true"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/musicSearchFragment"
+        android:name="com.hanyeop.mom.view.main.music_search.MusicSearchFragment"
+        android:label="fragment_music_search"
+        tools:layout="@layout/fragment_music_search" />
+</navigation>
