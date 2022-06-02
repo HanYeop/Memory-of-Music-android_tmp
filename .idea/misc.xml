@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProject/Memory-of-Music-android/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidProject/Memory-of-Music-android/app/src/main/res/layout/fragment_album_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidProject/Memory-of-Music-android/app/src/main/res/layout/fragment_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidProject/Memory-of-Music-android/app/src/main/res/layout/fragment_music_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidProject/Memory-of-Music-android/app/src/main/res/layout/fragment_setting.xml" value="0.36614583333333334" />
       </map>
     </option>
   </component>
